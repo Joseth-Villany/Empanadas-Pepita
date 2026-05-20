@@ -1,0 +1,173 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin-top: 235px;
+}
+.encabezado{
+    display: flex;
+    border: 2px solid;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(rgba(90, 92, 211, 0.434), rgb(238, 161, 238));
+}
+.encabezado-img{
+    text-align: center;
+    width: 20%;
+}
+.encabezado-img-logo{
+    max-width: 100%;
+}
+.encabezado-titulo{
+    text-align: center;
+    width: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.encabezado-menu{
+    text-align: center;
+    width: 30%;
+}
+.encabezado-menu-lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.encabezado-menu-lista-item{
+    list-style: none;
+}
+.main-body{
+    border: 2px solid violet;
+    margin: 1em; 
+
+}
+.icono_test{
+    width: 60px;
+    position: sticky;
+    top: 800px;
+    left: 95em;
+    height: 50px;
+}   
+a i{
+    font-size: 3.4em;
+}   
+.main-body-sec{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: 2px solid purple;
+    margin: 1em;
+}
+
+.main-sec-titulo{
+    margin: 1em;
+    width: 50%;
+    text-align: center;
+}
+.main-sec-parrafo{
+    margin: 1em;
+    width: 50%;
+    text-align: center;
+}
+.parrafo-main-sec{
+    margin: 3em;
+    text-align: justify;
+}
+.main-body-sec2{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+
+    margin: 1em;
+}
+.main-sec2-formato{
+    border: 2px solid gold;
+    width: 30%;
+    margin: 1em;
+}
+.main-sec2-contenido{
+    border: 2px solid greenyellow;
+    width: 30%;
+    margin: 1em;
+}
+.main-sec2-listas{
+    border: 2px solid brown;
+    width: 30%;
+    margin: 1em;
+}
+.parrafo-sec2{
+    text-align: justify;
+    margin: 0.5em;
+}
+.lista2{
+
+    margin-left: 10%;
+}
+.list3{
+    list-style: none;
+}
+table{
+    border: 1px solid black;
+    margin: 1em;
+    align-items: center;
+    width: 90%;
+    padding: 0%;
+    border-radius: 2px;
+    border-style: dotted;
+    background-color: rgb(900, 213, 390);
+}
+td{
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    border-radius: 2px;
+    margin: 5px;
+    text-decoration: none;
+    border-style: dotted;
+    background-color: rgb(255, 255, 255);
+}
+thead{
+    font-size: 1.2em;
+}
+.practice-tables{
+    display: flex;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+.horario{
+    border: 1px solid blue;
+    width: 60%;
+    align-items: center;
+    margin: 1em;
+    text-align: center;
+}
+.reset{
+    background-color: rgb(227, 165, 255);
+    font-size: 1em;
+    width: 100% ;
+}
+
+.ejercicio{
+    border: 1px solid black;
+    width: 40%;
+    align-items: center;
+    margin: 1em;
+}
+.Areas{
+    background-color: aqua;
+}
+.numbers{
+    background-color: rgb(240, 310, 12)
+}
+.laterales{
+    background-color: rgb(212, 121, 5667);
+}

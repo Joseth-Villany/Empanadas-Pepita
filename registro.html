@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="stylesheet" href="css/styleregistro.css">
+</head>
+<body>
+    <section class="user-register">
+         <h1 class="h1-user-register">Registro de Usuario</h1>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <form action="" class="registro">
+            <label for="Nombre">Nombre</label>
+            <input id="Nombre" type="text" placeholder="Ej Isaiah"> <br>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text" placeholder="Ej. Bone"> <br>
+            <label for="Cuidad">Ciudad</label>
+            <input id="Cuidad" type="text" placeholder="Ej. popayán"> <br>
+            <label for="Telefono">Telefono</label>
+            <input id="Telefono" type="text" placeholder="Ej.31215413"> <br>
+            <label for="Gmail">Gmail</label>
+            <input id="Gmail" type="text" placeholder="Ej.juanperez@gmail.com"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de cuentas</legend>
+            <label for="User">Nombre de Usuario</label>
+            <input id="User" type="text"> <br>
+            <label for="Pass">Contraseña</label>
+            <input id="Pass" type="password">
+        </fieldset>
+        <fieldset class="fs-otros-datos">
+            <legend>Otros datos</legend>
+            <article>
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" id="fecha">
+            </article>
+            <article>
+                <label for="documento">Documentos</label>
+                <input type="file" name="" id="documento">
+            </article>
+        </fieldset>
+        <fieldset class="seleccionables">
+            <legend>otros datos</legend>
+            <select multiple>
+                <option>JavaScript</option>
+                <option>Java</option>
+                <option>Python</option>
+            </select>
+        </fieldset>
+        <section class="botones">
+            <input type="button" value="Guardar">
+            <a class="inicio" href="/index.html">Inicio</a>
+        </section>
+    </section>
+</body>
+</html>

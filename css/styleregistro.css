@@ -1,0 +1,132 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    backdrop-filter: blur(6px);
+    background: linear-gradient(135deg, #e079f7 20%, #583fd1 100%);
+    background-image: url(/img/pink-blue-ink-liquid-hd-wallpaper-preview.jpg); 
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.user-register{
+    width: 35%;
+    padding: 20px;
+    margin: auto;
+    color: aliceblue;
+    background: rgba(191, 0, 255, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;   
+    box-shadow: 2px 5px 2em 2px rgb(200, 200, 200);
+}
+.h1-user-register{
+    margin: 6px;
+    border: 3px solid none;
+    padding: 2px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+fieldset {
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+legend {
+    font-weight: bold;
+    color: #d5cfcf;
+    padding: 0 10px;
+    text-align: center;
+
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 15px;
+}
+input[type="text"],
+
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+}
+
+input[type="button"] {
+    width: 80%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin: 0.5em;
+}
+input[type="button"]:hover {
+    background: rgba(0, 0, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+input[type="documento"] {
+    align-items: center;
+}
+input[type="fecha"] {
+    align-items: center;
+}
+.seleccionables{
+    background: rgba(183, 0, 255, 0);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+select{
+    width: 100%;
+}
+option{
+    width: 100%;
+}
+a{
+    width: 20%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin: 0.5em;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+a :hover{
+    background: rgba(0, 0, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
